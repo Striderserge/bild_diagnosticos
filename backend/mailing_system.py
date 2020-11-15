@@ -11,7 +11,7 @@ import database_commands
 def Send_Email(exam):
     data = database_commands.Mail_Select(exam)
     sender_address = 'teste.bild@outlook.com'
-    sender_pass = 'Bild2507'
+    sender_pass = 'CoffEE0211'
     receiver_address = str(data[4]) + ", teste.bild@outlook.com"
     mail_content = '''Paciente : {}
     Data pré-agendada : {}
